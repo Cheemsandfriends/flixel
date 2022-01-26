@@ -327,7 +327,7 @@ class Stats extends Window
 	 */
 	public inline function intervalTime():Float
 	{
-		return (_currentTime - _itvTime) / 1000;
+		return (_currentTime - _itvTime) / 950;
 	}
 
 	/**
